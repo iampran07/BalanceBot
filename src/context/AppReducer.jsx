@@ -1,4 +1,4 @@
-export default (state , action) =>{
+const appReducer = () =>{
     switch(action.type){
        case 'Add_Transection':
         return {
@@ -14,3 +14,4 @@ export default (state , action) =>{
        return state;
     }
 }
+export default appReducer;
